@@ -1,6 +1,8 @@
 # video-1
 - [x] 1 En este video, voy a explicar el proyecto llamado NPL-shop-pet, que es un chatbot que simula una tienda de mascotas. El proyecto está hecho en Python y usa la librería Gradio para crear una interfaz gráfica. Los archivos que componen el proyecto son los siguientes:
 
+![audio 1](./v1/a1/1.mp3)
+
 - [x] 2 requirements.txt: Este archivo contiene las dependencias que se necesitan para ejecutar el proyecto. Entre ellas están Gradio, TensorFlow, NLTK y numpy.
 
 - [x] 3 chatbot.py: Este archivo contiene el código principal del chatbot, que usa un modelo de red neuronal para clasificar las intenciones del usuario y generar respuestas adecuadas. El modelo se carga desde el archivo chatbot_model.h5, que se creó con el archivo training.py.
