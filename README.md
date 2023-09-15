@@ -1,19 +1,20 @@
-# video-parcial
-- [ x ] En este video, voy a explicar el proyecto llamado NPL-shop-pet, que es un chatbot que simula una tienda de mascotas. El proyecto está hecho en Python y usa la librería Gradio para crear una interfaz gráfica. Los archivos que componen el proyecto son los siguientes:
+# video-1
+- [x] 1 En este video, voy a explicar el proyecto llamado NPL-shop-pet, que es un chatbot que simula una tienda de mascotas. El proyecto está hecho en Python y usa la librería Gradio para crear una interfaz gráfica. Los archivos que componen el proyecto son los siguientes:
 
-- [ ] requirements.txt: Este archivo contiene las dependencias que se necesitan para ejecutar el proyecto. Entre ellas están Gradio, TensorFlow, NLTK y numpy.
+- [x] 2 requirements.txt: Este archivo contiene las dependencias que se necesitan para ejecutar el proyecto. Entre ellas están Gradio, TensorFlow, NLTK y numpy.
 
-- [ ] chatbot.py: Este archivo contiene el código principal del chatbot, que usa un modelo de red neuronal para clasificar las intenciones del usuario y generar respuestas adecuadas. El modelo se carga desde el archivo chatbot_model.h5, que se creó con el archivo training.py.
+- [x] 3 chatbot.py: Este archivo contiene el código principal del chatbot, que usa un modelo de red neuronal para clasificar las intenciones del usuario y generar respuestas adecuadas. El modelo se carga desde el archivo chatbot_model.h5, que se creó con el archivo training.py.
 
-- [ ] chatbot_gradio.py: Este archivo contiene el código para crear la interfaz gráfica con Gradio, que permite interactuar con el chatbot desde el navegador. La interfaz tiene un campo de texto para ingresar la pregunta del usuario y un botón para enviarla. La respuesta del chatbot se muestra en una caja de texto debajo.
+- [x] 4 chatbot_gradio.py: Este archivo contiene el código para crear la interfaz gráfica con Gradio, que permite interactuar con el chatbot desde el navegador. La interfaz tiene un campo de texto para ingresar la pregunta del usuario y un botón para enviarla. La respuesta del chatbot se muestra en una caja de texto debajo.
 
-- [ ] intents.json: Este archivo contiene los datos de entrenamiento del modelo, que consisten en una lista de intenciones, cada una con un nombre, una lista de patrones y una lista de respuestas. Los patrones son ejemplos de preguntas que el usuario puede hacer al chatbot, y las respuestas son posibles respuestas que el chatbot puede dar. El archivo tiene 15 intenciones diferentes, relacionadas con la tienda de mascotas, como saludar, comprar, consultar precios, etc.
+- [x] 5 intents.json: Este archivo contiene los datos de entrenamiento del modelo, que consisten en una lista de intenciones, cada una con un nombre, una lista de patrones y una lista de respuestas. Los patrones son ejemplos de preguntas que el usuario puede hacer al chatbot, y las respuestas son posibles respuestas que el chatbot puede dar. El archivo tiene 15 intenciones diferentes, relacionadas con la tienda de mascotas, como saludar, comprar, consultar precios, etc.
 
-- [ ] training.py: Este archivo contiene el código para entrenar el modelo de red neuronal usando los datos del archivo 
+- [x] 6 training.py: Este archivo contiene el código para entrenar el modelo de red neuronal usando los datos del archivo intents.json
 
-- [ ] intents.json. El modelo tiene dos capas ocultas y una capa de salida con 15 neuronas, una por cada intención. El modelo se guarda en el archivo chatbot_model.h5 después de entrenarlo.
+- [x] 7 El modelo tiene dos capas ocultas y una capa de salida con 15 neuronas, una por cada intención. El modelo se guarda en el archivo chatbot_model.h5 después de entrenarlo.
 
 ---
+# video 2
 
 - [ ] En este video, voy a explicar el proyecto llamado springboot-chatgpt. Este proyecto es una aplicación de Spring Boot que utiliza la API de OpenAI ChatGPT para generar respuestas a los mensajes del usuario. Los archivos que componen el proyecto son los siguientes:
 
@@ -34,6 +35,7 @@
 /chatboot/prompt: Acepta una solicitud GET con un parámetro ‘message’. Devuelve una respuesta del chatbot como un objeto ChatResponse.
 
 ---
+# video 3
 
 - [ ] En este video, voy a explicar un bot de WhatsApp construido en Python utilizando el framework Flask. Aquí está una descripción resumida de su funcionamiento:
 
