@@ -18,19 +18,19 @@
 ---
 # video 2
 
-- [ ] En este video, voy a explicar el proyecto llamado springboot-chatgpt. Este proyecto es una aplicación de Spring Boot que utiliza la API de OpenAI ChatGPT para generar respuestas a los mensajes del usuario. Los archivos que componen el proyecto son los siguientes:
+- [x] 1 En este video, voy a explicar el proyecto llamado springboot-chatgpt. Este proyecto es una aplicación de Spring Boot que utiliza la API de OpenAI ChatGPT para generar respuestas a los mensajes del usuario. Los archivos que componen el proyecto son los siguientes:
 
-- [ ] pom.xml: Este archivo es el archivo de configuración de Maven para el proyecto. Define las dependencias del proyecto, como Spring Boot y la biblioteca de OpenAI.
+- [x] 2 pom.xml: Este archivo es el archivo de configuración de Maven para el proyecto. Define las dependencias del proyecto, como Spring Boot y la biblioteca de OpenAI.
 
-- [ ] Dockerfile: Este archivo define cómo se debe construir la imagen de Docker para la aplicación. Esto permite que la aplicación se ejecute en cualquier sistema que tenga Docker instalado, independientemente del sistema operativo y las dependencias instaladas.
+- [x] 3 Dockerfile: Este archivo define cómo se debe construir la imagen de Docker para la aplicación. Esto permite que la aplicación se ejecute en cualquier sistema que tenga Docker instalado, independientemente del sistema operativo y las dependencias instaladas.
 
-- [ ] application.properties: Este archivo contiene la configuración de la aplicación Spring Boot. Aquí es donde se definen cosas como el puerto en el que se ejecuta la aplicación y las claves de API para servicios externos.
+- [x] 4 application.properties: Este archivo contiene la configuración de la aplicación Spring Boot. Aquí es donde se definen cosas como el puerto en el que se ejecuta la aplicación y las claves de API para servicios externos.
 
-- [ ] DemoApplication.java: Este es el punto de entrada principal de la aplicación. Inicia la aplicación Spring Boot y configura cualquier bean necesario.
+- [x] 5 DemoApplication.java: Este es el punto de entrada principal de la aplicación. Inicia la aplicación Spring Boot y configura cualquier bean necesario.
 
-- [ ] HelloGPTController.java: Este archivo define un controlador de Spring MVC que maneja las solicitudes HTTP a la ruta “/hello”. Cuando se recibe una solicitud, el controlador llama a la API de OpenAI ChatGPT con el mensaje del usuario y devuelve la respuesta generada.
+- [x] 6 HelloGPTController.java: Este archivo define un controlador de Spring MVC que maneja las solicitudes HTTP a la ruta “/hello”. Cuando se recibe una solicitud, el controlador llama a la API de OpenAI ChatGPT con el mensaje del usuario y devuelve la respuesta generada.
 
-- [ ] endpoits:
+- [x] 7 endpoits:
 
 /chatboot/chat: Acepta una solicitud GET con un parámetro ‘message’. Devuelve una respuesta del chatbot como una cadena.
 
